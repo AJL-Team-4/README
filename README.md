@@ -8,7 +8,36 @@ Contributors:
   - https://github.com/CamilleDove
 - Melissa April
   - https://github.com/melissaaapril
+Project Highlights
 
+- Developed multiple deep learning models to classify skin diseases with a focus on diversity in skin color.
+
+- Utilized EfficientNetB2 as the backbone with different optimizers and learning rate strategies.
+
+- Applied oversampling techniques to balance dataset distribution by label and skin color.
+
+- Achieved an improvement in accuracy from 58% (Model1) to 66.9% (Model7).
+Setup & Execution
+
+Prerequisites
+
+- Python 3.x
+
+- TensorFlow/Keras
+
+- Jupyter Notebook
+
+- Required libraries: numpy, pandas, matplotlib, scikit-learn, tensorflow-addons
+
+Execution Steps
+
+- Clone the repository.
+
+- Install required dependencies.
+
+- Run Model7.ipynb for final model execution.
+
+- Monitor accuracy and loss metrics during training.
 Project Overview:
 
 - This Kaggle competition is part of the Break Through Tech AI Program in collaboration with the Algorithmic Justice League. The challenge focuses on improving AI fairness in dermatology by developing an inclusive machine-learning model that can classify 21 different skin conditions across diverse skin tones.
@@ -49,3 +78,29 @@ Data Visualization:
 
 ![image](https://github.com/user-attachments/assets/1c3f9bb4-85a3-4348-b543-f4c7fd8ddb69)
 ![image](https://github.com/user-attachments/assets/fdac011e-3846-48cb-9fd0-cc81fc68ff9b)
+Model Development
+- https://github.com/AJL-Team-4/Models 
+
+Results & Key Findings
+
+- Oversampling by both label and skin color improved accuracy.
+
+- Learning rate scheduling and fine-tuning were essential for performance gains.
+
+- Addressing dataset bias helped improve generalization.
+
+Impact Narrative
+
+- This project contributes to equitable AI in dermatology by considering diverse skin tones.
+
+- The model can be further optimized and integrated into clinical applications to assist dermatologists.
+
+Next Steps & Future Improvements
+
+- Explore additional architectures such as Vision Transformers.
+
+- Implement more sophisticated data augmentation techniques.
+
+- Investigate semi-supervised learning to leverage unlabelled data.
+
+- Test model performance on real-world clinical datasets.
