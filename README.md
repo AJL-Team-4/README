@@ -8,6 +8,7 @@ Contributors:
   - https://github.com/CamilleDove
 - Melissa April
   - https://github.com/melissaaapril
+
 Project Highlights
 
 - Developed multiple deep learning models to classify skin diseases with a focus on diversity in skin color.
