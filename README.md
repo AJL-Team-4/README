@@ -39,6 +39,7 @@ Execution Steps
 - Run Model7.ipynb for final model execution.
 
 - Monitor accuracy and loss metrics during training.
+
 Project Overview:
 
 - This Kaggle competition is part of the Break Through Tech AI Program in collaboration with the Algorithmic Justice League. The challenge focuses on improving AI fairness in dermatology by developing an inclusive machine-learning model that can classify 21 different skin conditions across diverse skin tones.
